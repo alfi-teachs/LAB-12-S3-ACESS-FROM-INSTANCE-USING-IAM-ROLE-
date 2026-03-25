@@ -44,11 +44,13 @@ sudo yum install aws-cli -y
 chmod 400 your-key.pem
 
 # Important Concept
-# No access keys used
-# EC2 uses temporary credentials via IAM Role
-# Secure method (recommended)
+
+- No access keys used
+-  EC2 uses temporary credentials via IAM Role
+- Secure method (recommended)
 
 # Final Result
+
 IAM Role created
 Role attached to EC2
 S3 accessed successfully
