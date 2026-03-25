@@ -39,7 +39,9 @@ EC2-S3-Read-Role
 Click Update IAM role
 
 # Step 6: Connect to EC2
+```bash
 ssh -i your-key.pem ec2-user@your-public-ip
+```
 
 # Step 7: Test S3 Access
 
@@ -47,12 +49,15 @@ ssh -i your-key.pem ec2-user@your-public-ip
 aws s3 ls
 ```
 # Install AWS CLI (if needed)
-
+```bash
 sudo yum install aws-cli -y
+```
 
 # Fix Key Permission
-
+```bash 
 chmod 400 your-key.pem
+
+```
 
 # Important Concept
 
