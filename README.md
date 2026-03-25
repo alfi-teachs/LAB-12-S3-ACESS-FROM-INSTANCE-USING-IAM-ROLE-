@@ -9,7 +9,7 @@ Click Roles → Create role
   
 # Step 2: Attach Policy
 Search and select:
-AmazonS3ReadOnlyAccess
+- AmazonS3ReadOnlyAccess
 
 Click Next
 # Step 3: Name the Role
