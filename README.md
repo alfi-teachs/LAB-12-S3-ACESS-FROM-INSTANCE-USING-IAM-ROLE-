@@ -1,10 +1,12 @@
 # Step 1: Create IAM Role
 Go to AWS Console → IAM
 Click Roles → Create role
-Select:
-Trusted entity: AWS service
-Use case: EC2
-Click Next
+
+- Select:
+- Trusted entity: AWS service
+- Use case: EC2
+- Click Next
+  
 # Step 2: Attach Policy
 Search and select:
 AmazonS3ReadOnlyAccess
